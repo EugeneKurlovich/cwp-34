@@ -1,0 +1,10 @@
+2018-04-12T18:24:06.297Z - [32minfo[39m: /offices GET
+2018-04-12T18:32:43.622Z - [32minfo[39m: /offices GET
+2018-04-12T18:37:23.340Z - [32minfo[39m: /offices?limit=1&offset=1 GET
+ query: {"limit":"1","offset":"1"}
+2018-04-12T18:37:43.906Z - [32minfo[39m: /offices?limit=1&offset=1 GET
+ query: {"limit":"1","offset":"1"}
+2018-04-12T18:38:53.966Z - [32minfo[39m: /offices?limit=1&offset=1 GET
+ query: {"limit":"1","offset":"1"}
+2018-04-12T18:39:06.866Z - [32minfo[39m: /offices?limit=1&offset=1 GET
+ query: {"limit":"1","offset":"1"}
