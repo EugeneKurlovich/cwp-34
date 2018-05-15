@@ -1,5 +1,5 @@
 module.exports = (loggerService) => (req, res, next) => {
-    loggerService.log(req);
+    //loggerService.log(req);
 
     next();
 };

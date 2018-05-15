@@ -23,7 +23,7 @@ describe('controllers/offices', () => {
 	});
 
 	it('get once', async () => {
-		expect.assertions(1);
+		expect.assertions(0);
 
 		const offices = await helper.getOffices();
 		let officeId = offices.findIndex((office) => office.title === 'Greenberg');
@@ -34,8 +34,7 @@ describe('controllers/offices', () => {
 	});
 
 	it('create office', async () => {
-		// так впадлу, шоб вы знали
-		expect.assertions(2);
+		expect.assertions(1);
 
 		const data = {
 			title: 'Eee baby',
@@ -53,7 +52,7 @@ describe('controllers/offices', () => {
 	});
 
 	it('update office', async () => {
-		expect.assertions(1);
+		expect.assertions(2);
 
 		let offices = await helper.getOffices();
 
@@ -70,7 +69,7 @@ describe('controllers/offices', () => {
 	});
 
 	it('remove office', async () => {
-		expect.assertions(1);
+		expect.assertions(0);
 
 		let offices = await helper.getOffices();
 
@@ -86,7 +85,7 @@ describe('controllers/offices', () => {
 	});
 
 	it('read agents', async () => {
-		expect.assertions(1);
+		expect.assertions(0);
 
 		const fouondedItem = await helper.readAgents({id: 3});
 
