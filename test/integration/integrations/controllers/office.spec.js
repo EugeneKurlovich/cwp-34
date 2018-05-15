@@ -70,7 +70,7 @@ describe('controllers/offices', () => {
 	});
 
 	it('remove office', async () => {
-		expect.assertions(0);
+		expect.assertions(1);
 
 		let offices = await helper.getOffices();
 
